@@ -2,7 +2,7 @@ string1 = "ABCdef"
 
 #Concatination -> +
 sum_string1 = string1 + string1[0]
-print(string1) #output ABCdefA
+print(sum_string1) #output ABCdefA
 
 #Indexing
 print(string1[2]) 
@@ -21,7 +21,7 @@ string_q1 = "ABCdef123"
 print(string_q1 * 2) #--> ?
 
 #Q2
-string_q2 = "ABCdef135"
+string_q2 = "ABCdef135" #jumlah kar. 9
 print(string_q2[9]) #--> ?
 
 
@@ -48,7 +48,7 @@ list_b = [1, 2, 3]
 list_q4 = list_a + list_b
 print(list_q4)
 #or
-list_a.extend(list_b)
+list_a.append(list_b)
 print(list_a)
 
 #tuple
@@ -57,6 +57,9 @@ print(type(tuple1))
 
 #extend tuple
 tuple2 = ("apple", "banana", "cherry", "apple")
+tuple2[2] = "3"
+print(tuple2)
+print(tuple2)
 addtuple = ("orange", 1, 2, 3)
 tuple2 += addtuple
 print(tuple2)
