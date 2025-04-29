@@ -6,7 +6,10 @@ print(f.read())
 with open("demo-file-handling.txt", "a") as f: #append
   f.write("Now the file has more content!")
 
-with open("demofile.txt", "w") as f: #overwrite
+with open("demo-file-handling.txt", "a") as f: #append
+  f.write("WIWIWIWI")
+
+with open("demo-file-handling.txt", "w") as f: #overwrite
   f.write("Woops! I have deleted the content!")
 
 if os.path.exists("demo-file-handling.txt"): #delete if available

@@ -1,0 +1,8 @@
+
+Bukti Pembayaran Rumah Subsidi Pak Adi
+-------------------------------------
+Harga Rumah          : Rp 400,000,000
+Uang Muka (25%)      : Rp 100,000,000
+Pajak (20%)          : Rp 80,000,000
+Sisa Harga Rumah     : Rp 300,000,000
+Cicilan per Bulan    : Rp 5,000,000 (selama 60 bulan tanpa bunga)
