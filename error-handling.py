@@ -1,11 +1,11 @@
 try:
-    n = 0
+    n = "0"
     res = 100 / n
     
 except ZeroDivisionError:
     print("You can't divide by zero!")
     
-except ValueError:
+except TypeError:
     print("Enter a valid number!")
     
 else:
