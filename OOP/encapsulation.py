@@ -1,10 +1,17 @@
-class Dompet:
+class Mobil:
     def __init__(self):
-        self.__uang = 100  # private
+        self.__kecepatan = 100  # atribut privat
 
-    def lihat_uang(self):
-        print(f"Uangnya ada {self.__uang}")
+    def set_kecepatan(self, nilai):
+        if nilai >= 0:
+            self.__kecepatan = nilai
+        else:
+            print("Kecepatan tidak boleh negatif!")
 
-dompet = Dompet()
-dompet.lihat_uang()  # Bisa lihat
-# dompet.__uang  error, karena disembunyiin
+    def get_kecepatan(self):
+        return self.__kecepatan
+
+m = Mobil()
+print(m.get_kecepatan())   # 100
+m.set_kecepatan(-50)       # Ditolak!
+print(m.get_kecepatan())   # Masih 100

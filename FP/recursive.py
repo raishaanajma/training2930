@@ -13,7 +13,7 @@ def Sum(L, i, n, count):
     return count
 
 # Driver's code
-L = [1, 2, 3, 4, 5]
+L = [1, 2, 3, 4, 5] #15
 count = 0
 n = len(L)
 print(Sum(L, 0, n, count))
