@@ -15,5 +15,7 @@ myfamily = {
   }
 }
 
+print(myfamily["child1"])
+
 with open("python-json.json", "w") as f:
     json.dump(myfamily, f, indent=4)

@@ -1,4 +1,4 @@
-mylist = [10, 20, 30, 40] 
+mylist = [1, 2, 3] 
   
 # modularization is done by  
 # functional approach 

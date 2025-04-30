@@ -24,3 +24,4 @@ del dictionary1["brand"]
 print(dictionary1)
 
 #delete entire
+del dictionary1

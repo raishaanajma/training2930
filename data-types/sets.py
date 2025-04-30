@@ -1,10 +1,11 @@
-set1 = {"apple", "banana", "cherry"}
+set1 = {"orange", "banana", "cherry"}
 
-for x in set1:
-  print(x)
+for rehan in set1:
+  print(rehan)
 
-set1.add("orange")
+set1.add("apple")
 print(set1)
+print(len(set1))
 
 #remove/discard
 set1.discard("orange")
